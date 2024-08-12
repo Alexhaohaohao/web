@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ch-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>俊豪版新浪新闻</title>
+  <style>
+    .title {
+      font-size: 30px;
+    }
+
+    .littletitle {
+      font-size: 25px;
+    }
+
+    .text {
+      font-size: 20px;
+    }
+
+    .note {
+      color: red;
+      font-weight: 550;
+    }
+
+    .mcn {
+      color: rgba(53, 52, 52, 0.568);
+      margin: 10px;
+      text-decoration: none;
+    }
+
+    .talk {
+      color: rgba(24, 24, 24, 0.568);
+      margin: 10px;
+    }
+
+    .body {
+      width: auto;
+      margin: 20px;
+    }
+
+    .bar {
+      padding: 10px 20px;
+      background-color: rgb(0, 0, 153);
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    .bar:hover {
+      background-color: rgb(156, 1, 1);
+      color: white;
+    }
+
+    nav {
+      background-color: rgb(0, 0, 153);
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      margin: 10px;
+      color: white;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .bar {
+      padding: 10px 20px;
+      background-color: transparent;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .bar:hover {
+      background-color: rgb(156, 1, 1);
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        overflow: visible;
+      }
+    }
+
+    button {
+      padding: 8px 16px;
+      margin-left: 8px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      margin: 20px;
+    }
+    .main{
+      width: 1400px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="header">
+      <div class="logo">
+        <img src="https://i2.sinaimg.cn/dy/deco/2012/0613/yocc20120613img01/news_logo.png" alt="logo">
+      </div>
+      <div class="search">
+        <form action="/search" method="get">
+          <label for="search-query" style="margin: 15px;">新浪搜索:</label>
+          <input type="search" id="search-query" name="query" placeholder="键入你的内容">
+          <button type="submit">搜索</button>
+        </form>
+      </div>
+    </div>
+
+    <nav>
+      <a class="bar" href="https://news.sina.com.cn/roll/#pageid=153&lid=2509&k=&num=50&page=1">首页</a>
+      <a class="bar" href="https://news.sina.com.cn/hotnews/">排行</a>
+      <a class="bar" href="https://gov.sina.com.cn/">政务</a>
+      <a class="bar" herf="https://news.sina.com.cn/china/">国内</a>
+      <a class="bar" href="https://news.sina.com.cn/world/">国际</a>
+      <a class="bar" href="https://mil.news.sina.com.cn/">军事</a>
+      <a class="bar" href="https://video.sina.com.cn/mini/index.d.html">小视频</a>
+      <a class="bar" href="https://tousu.sina.com.cn/">黑猫投诉</a>
+      <a class="bar" href="https://video.sina.com.cn/">视频</a>
+      <a class="bar" href="https://sports.sina.com.cn/">体育</a>
+      <a class="bar" href="https://finance.sina.com.cn/">财经</a>
+      <a class="bar" href="https://tech.sina.com.cn/">科技</a>
+      <a class="bar" href="https://news.sina.com.cn/zt/">专题</a>
+    </nav>
+    <div class="body">
+      <h1 class="title">水花61分伊戈拉制胜抢断 西决勇士再战开拓者总分2-0</h1>
+      <span class="note">顶置</span>
+      <a class="mcn" href="https://news.sina.com.cn/">新浪新闻</a>
+      <span class="talk">点赞：999w+</span>
+      <span class="talk">评论：9999+</span>
+      <span class="talk">好友：周沁豪 等好友已点赞</span>
+      <h2 class="littletitle">数据统计：水花兄弟合砍61分</h2>
+      <p class="text">
+        库里22投11中，三分14投4中，罚球11罚全中得到37分8篮板8助攻，职业生涯季后赛得分30+次数来到35次，超过哈登排名现役第3位，仅次于詹姆斯和杜兰特。
+      </p>
+      <p class="text">
+        汤普森22投8中，三分8投4中得到24分3篮板2助攻，德拉蒙德-格林得到16分10篮板7助攻5盖帽，凯文-鲁尼得到14分7篮板2助攻，今天勇士有7名替补出场。
+      </p>
+      <p class="text">
+        开拓者这边，利拉德16投6中，三分12投5中得到23分10助攻5篮板，他第四节只得到6分，CJ麦科勒姆23投9中，三分7投3中，得到22分5助攻，他第四节6投不中没有得分。
+      </p>
+      <p class="text">
+        塞斯-库里9投5中，三分7投4中得到16分4抢断2助攻，在场期间开拓者赢了13分，是开拓者全场打得最好的球员。
+      </p>
+      <h2 class="littletitle">兄弟对决升级：小库里给哥哥造成压力</h2>
+      <p class="text">
+        库里兄弟是NBA历史上第一对在分区决赛相遇的兄弟。在西决第1场中，小库里没有给哥哥造成压力，他出场19分钟，7投1中只得到3分3篮板2助攻，在场期间输掉10分。
+      </p>
+      <p class="text">
+        但在西决第2场中，小库里攻防两端都打出杰出的表现，全场送出4次抢断，包括直接抢断自己的哥哥库里，在防守端给库里造成了极大的困扰。
+      </p>
+      <p class="text">
+        而在进攻端，小库里也打出了非常出色的表现，全场投中4个三分，包括第四节投中2个关键三分，在场期间一度赢了22分，一度帮助开拓者建立17分的领先优势。
+      </p>
+      <p class="text">
+        库里面对弟弟的出色表现，当然也不甘示弱，再次展现出超级巨星的统治力，连续3场比赛得分达到30+，季后赛30+次数来到35次，超过哈登独占现役第3位。
+      </p>
+      <h2 class="littletitle">高光时刻</h2>
+      <p class="text">首节进行到11分45秒，博格特接到库里传球，高位进行策应，一个漂亮的击地传球，将球给到反跑空切格林，助攻格林完成一次漂亮的双手灌篮</p>
+      <p class="text">首节进行到3分28秒，库里接到利文斯顿手递手传球，接着向左运球，利用鲁尼的掩护，获得一个大空位的三分机会，直接投中三分。开拓者主帅特里-斯托茨怒发冲冠，叫出暂停。</p>
+      <p class="text">斯托茨发怒的原因完全可以理解：库里作为NBA历史上最好的射手，迈尔斯-莱昂纳德在鲁尼掩护时竟然没有换防库里，而是缩在三分线内，这是一个非常大的防守错误。</p>
+      <p class="text">首节进行到1分19秒，小库里将球传给利拉德后，自己跑到右侧底角埋伏，得到一个大空位机会。他得到利拉德传球后，直接出手三分，却被神兵天降的格林盖帽。</p>
+      <p class="text">第二节进行到7分35秒，汤普森利用利文斯顿的无球掩护，接到杰雷布科的传球，吸引麦科勒姆和胡德的包夹，接着分球给利文斯顿。利文斯顿吸引坎特的补防后，助攻贝尔灌篮得分。</p>
+      <p class="text">第二节进行到5分07秒，库里运球往前场推进，他的弟弟小库里紧随其后。在库里运球过程中，小库里突然一个加速，直接将库里的球断下，发动快攻反击</p>
+      <p class="text">第二节进行到37.6秒，利拉德三分线外面对伊戈达拉的防守，运球突破过程中完成急停，接着一个后撤步摆脱伊戈达拉，出手就是一个三分，颇有些哈登的风采。</p>
+      <h2 class="littletitle">比赛回顾：</h2>
+      <p class="text">在汤普森背打利拉德转身跳投得分后，勇士8-6取得领先。但今天麦科勒姆打出了极为出色的个人进攻，他连续投中2个三分，包括一次快攻三分，帮助开拓者12-8反超比分。</p>
+      <p class="text">开拓者今天的防守端仍然频繁犯错，麦科勒姆投中三分后，开拓者退防出现问题，被格林篮下偷袭得手，还造成阿米奴投篮犯规。两支球队其后陷入缠斗。</p>
+      <p class="text">第一节进行到3分23秒，库里利用开拓者球员莱昂纳德的防守失误，在圈顶直接投中三分，勇士21-22迫近比分。开拓者主帅斯托茨愤怒地叫出暂停，开拓者暂停后稳住阵脚，首节31-29领先。</p>
+      <p class="text">两队第二节开始阶段打得非常胶着。第二节进行到7分31秒，勇士打出漂亮的配合，贝尔接到利文斯顿传球灌篮得分，勇士36-40紧紧咬住比分。在随后的比赛中，库里兄弟的对决成为焦点。</p>
+      <p class="text">小库里在防守哥哥时做得非常不错，个人进攻也亮点多多，他帮助开拓者逐渐占据上风。利拉德先后投中2个超远三分，小库里也在快攻中三分得手，开拓者62-45取得17分领先优势。</p>
+      <p class="text">关键时刻，鲁尼接到格林传球，在内线强攻得手还造成坎特投篮犯规，勇士稳住阵脚。半场比赛结束时，库里突破上篮得手，帮助勇士50-65咬住比分。</p>
+      <p class="text">开拓者半场打出了非常出色的进攻，命中率高达50%，其中三分22投11中。利拉德三分5投3中得到10分，麦科勒姆三分4投3中得到16分。勇士这边，库里一个人得到19分。</p>
+      <p class="text">勇士第三节比赛改变先发阵容，用鲁尼顶替博格特先发，这一招收到奇效。勇士换上小个阵容后，利拉德或者麦科勒姆一和队友挡拆，勇士坚决包夹持球人，效果很好。</p>
+      <p class="text">勇士以防带攻，打出了酣畅淋漓的防守反击，库里、汤普森（2个）连续投中3个三分，勇士打出一个13-0攻击波，以66-69将分差缩小到3分，迫使开拓者叫出暂停。</p>
+      <p class="text">哈克里斯暂停后上篮得分，开拓者稍微稳住阵脚，但他们攻防都出现问题，勇士很快反超比分。第二节进行到3分48秒，汤普森快攻中三分得手，勇士77-75反超比分。</p>
+      <p class="text">好在利拉德打出攻击性，他一个人连续得到7分后，两队第三节打成89平。汤普森第三节三分3投3中，单节得到13分，是勇士追上分差的最大功臣。</p>
+      <p class="text">开拓者第四节开局打得不错，利拉德和小库里先后投中2个三分，莱昂纳德也扣篮得手，他们帮助开拓者97-94取得3分领先优势。</p>
+      <p class="text">勇士请求暂停后，进攻没有多少起色，反而是利拉德和莱昂纳德组合破了勇士的包夹。利拉德强行突破到内线，上篮得分还造成格林犯规，莱昂纳德也中投命中，开拓者102-94扩大分差。</p>
+      <p class="text">勇士请求暂停后，库里开始接管比赛，他在外线跳投得分，突破上篮得分。但他的弟弟也不甘示弱，小库里投中关键三分，莱昂纳德也三分得手，开拓者108-100保持领先。</p>
+      <p class="text">开拓者球星麦科勒姆其后疯狂打铁，错失了多次进攻机会，勇士借机打出一个10-0攻击波。在库里3罚全中后，勇士110-108反超比分。小库里其后投中关键三分，帮助开拓者续命。</p>
+      <p class="text">但开拓者双子星利拉德和麦科勒姆仍然还在打铁，鲁尼和格林连续篮下强攻得手，勇士114-111取得领先。开拓者请求暂停后，
+      <h2 class="littletitle">双方先发：</h2>
+      <p class="text">勇士：斯蒂芬-库里、克莱-汤普森、安德烈-伊戈达拉、德拉蒙德-格林、安德鲁-博格特</p>
+      <p class="text">开拓者：达米安-利拉德、CJ麦科勒姆、莫里斯-哈克里斯、阿米奴、伊内斯-坎特</p>
+      <p class="text">（童心）</p>
+      <p class="text">下载荔枝新闻APP客户端，随时随地看新闻！</p>
+      <ul>
+        <li>新浪微博</li>
+        <li>微信朋友圈</li>
+        <li>微信好友</li>
+        <li>QQ空间</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
